@@ -30,6 +30,7 @@ O resultado será um dicionário  com as informações .
 ```python
 dicionárioInformaçõesGeraisEs = api.getGeral('es')
 print(dicionárioInformaçõesGeraisEs)
+
 dicionárioInformaçõesGeraisBr = api.getGeral('br')
 print(dicionárioInformaçõesGeraisBr )
 ```
@@ -41,12 +42,13 @@ print(dicionárioInformaçõesGeraisBr )
 ```python
 dicionárioInformaçõesPresidenteBr = api.getPresidentes('br')
 print(dicionárioInformaçõesPresidenteBr)
+
 dicionárioInformaçõesPresidenteMs = api.getPresidentes('ms')
 print(dicionárioInformaçõesPresidenteMs)
 ```
 - Recebe as informações dos candidatos.
 - Coloque a sigla do Estado desejado para obter a informação sobre aquele Estado.
-- A sigla 'br' para receber dados sobre a votação de presidente do Brasil.
+- A sigla `'br'` para receber dados sobre a votação de presidente do Brasil.
 - Retorna uma lista de dicionário dos candidatos.
 
 ###   api.getSenadores( string )
