@@ -14,7 +14,7 @@ pip install requests
 ```
 Importação do modulo .
 ```python
-from apy_tse import api_tse_tabela as api
+from api_tse import api_tse_tabela as api
 ```
 - Agora podemos chamar nosso modulo escrevendo `api`.
 
